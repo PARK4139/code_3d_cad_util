@@ -1,0 +1,41 @@
+_______________________________________ etc 
+Edit > Preferences > Extensions 또는 Add-ons
+
+CAD Sketcher
+
+
+Blender 5.1 기준으로 설치 → 활성화 → 화면에 치수 보이게 하는 절차
+
+_______________________________________ idea flow
+설계 via build123d > 시각화 via blender 
+
+_______________________________________ 설계 via build123d
+_______________________________________ 시각화 via Blender (수동 import)
+File > Import > STL (.stl)
+C:\Users\USER\Downloads\code_3d_cad_util\artifacts\sample_part.stl
+_______________________________________ 시각화 via Blender Python
+# auto import  as Blender Python
+Blender Python으로 “파일 변경 감시 + STL 재import” 스크립트를 붙이는 방식
+
+
+# Online Access 활성화
+# Edit > Preferences > System > Allow Online Access
+
+
+
+# STL import add-on/extension 활성화
+# Edit > Preferences > Add-ons / STL 없음.
+
+
+
+# Blender python load 하도록 설정
+Blender /Scripting / text editor / open
+C:\Users\USER\Downloads\code_3d_cad_util\blender_control_via_python_api\blend_session_reloader.py
+Text / Run Script (Alt + P)
+
+
+
+
+uv active
+cls
+python C:\Users\USER\Downloads\code_3d_cad_util\code_cad\main.py
